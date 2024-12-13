@@ -1,0 +1,33 @@
+.pokemon_color {
+    text-align: center;
+}
+
+.ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.li {
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: white;
+    transition: background-color 0.3s;
+}
+
+button.active {
+    background-color: #cce7ff; /* Цвет фона для активной кнопки */
+}
+
+button:hover {
+    background-color: #f0f0f0; /* Легкий фон при наведении */
+}
